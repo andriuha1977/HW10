@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+           background-color: #333; 
+           margin: 0;
+        }
+        .profile{
+            background-color:brown;
+            margin: 100px;
+            width: 200px;
+            height: 200px;  
+           overflow: hidden;
+           border-radius: 100%;
+           border: 3px solid brown;
+        }
+        .profile:hover img{
+            margin-top: -200px;
+            opacity: 0;
+        }
+        .profile img{
+           /* opacity:0.5 ;*/
+           transition: 0.5s;
+        }
+        .profile figcaption{
+            background-color: brown;
+            width: inherit;
+            height: 175px;
+            text-align: center;
+            padding-top: 25px;
+            color: white;
+            font-family: arial;
+        }
+        .profile h2{
+            margin: 0;
+            font-size: 20px;
+        }
+        .profile h3{
+            font-size: 15px;
+            margin: 0;
+        }
+        .profile p{
+            color: #ddd;  
+            padding-left: 10px;
+            padding-right: 10px;
+        }
+        .profile ul{
+            margin: 0;
+            list-style: none;
+             text-align: left;
+        }
+        
+    </style>
+</head>
+<body>
+    
+
+    <figure class="profile">
+        <img src="images/avatar.jpg" alt="Marchel Rodriges">
+        <figcaption>
+         <h2>Marchel Rodriges</h2>
+        <h3>UI DISIGNER</h3>
+        <ul>
+            <li>Skills</li>
+            <li>Expereance</li>
+            <li>Target</li>
+        </ul>
+        <small><a href="contacts.html">contacts 
+            <br>
+        </a></small>
+        </figcaption>
+     </figure>
+
+</body>
+</html>
